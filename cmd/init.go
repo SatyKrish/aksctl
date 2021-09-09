@@ -17,11 +17,12 @@ package cmd
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/adfolks/aksctl/pkg/ctl/utils"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"os"
 )
 
 // createCmd represents the create command
